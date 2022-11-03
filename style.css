@@ -1,0 +1,28 @@
+.nyomogomb {
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 5px;
+    width: 40px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    text-align: right;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#szamologep {
+    width: 450px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}

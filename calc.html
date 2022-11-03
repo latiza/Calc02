@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <title>Számológép</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Számológép</h1>
+    <form id="szamologep">
+        <input type="text" id="kijelzo" value="0" readonly> <br>
+        <input type="button" class="nyomogomb" value="X*X" onclick="negyzet()">
+        <input type="button" class="nyomogomb" value="√" onclick="negyzetgyok()">
+        <input type="button" class="nyomogomb" value="PI" onclick="pi()">
+        <input type="button" class="nyomogomb" value="1/X" onclick="reciprok()">
+        <input type="button" class="nyomogomb" value="C" onclick="torles()">
+        <br>
+
+        <input type="button" class="nyomogomb" value="7" onclick="beszamjegy(7)">
+        <input type="button" class="nyomogomb" value="8" onclick="beszamjegy(8)">
+        <input type="button" class="nyomogomb" value="9" onclick="beszamjegy(9)">
+        <input type="button" class="nyomogomb" value="/" onclick="muveletvegzes(4)">
+        <input type="button" class="nyomogomb" value="sin" onclick="sin()">
+
+        <br>
+
+        <input type="button" class="nyomogomb" value="4" onclick="beszamjegy(4)">
+        <input type="button" class="nyomogomb" value="5" onclick="beszamjegy(5)">
+        <input type="button" class="nyomogomb" value="6" onclick="beszamjegy(6)">
+        <input type="button" class="nyomogomb" value="*" onclick="muveletvegzes(3)">
+        <input type="button" class="nyomogomb" value="cos" onclick="cos()">
+        <br>
+
+        <input type="button" class="nyomogomb" value="1" onclick="beszamjegy(1)">
+        <input type="button" class="nyomogomb" value="2" onclick="beszamjegy(2)">
+        <input type="button" class="nyomogomb" value="3" onclick="beszamjegy(3)">
+        <input type="button" class="nyomogomb" value="-" onclick="muveletvegzes(2)">
+        <input type="button" class="nyomogomb" value="tan" onclick="tan()"> <br>
+
+        <input type="button" class="nyomogomb" value="+-" onclick="elojelvalto()">
+        <input type="button" class="nyomogomb" value="0" onclick="beszamjegy(0)">
+        <input type="button" class="nyomogomb" value="," onclick="vesszo()">
+        <input type="button" class="nyomogomb" value="+" onclick="muveletvegzes(1)">
+        <input type="button" class="nyomogomb" value="=" onclick="szamol()"><br>
+        <p id="hiba"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
